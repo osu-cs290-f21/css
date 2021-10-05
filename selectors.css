@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+  background-color: chartreuse;
+}
+
+h1 {
+  font-size: 128px;
+}
+
+.italics-text {
+  font-style: italic;
+}
+
+.with-border {
+  border: 4px dashed darkmagenta;
+}
+
+#site-title {
+  color: goldenrod;
+}
+
+p.italics-text {
+  font-weight: bold;
+}
+
+h1#site-title {
+
+}
+
+.italics-text.with-border {
+
+}
+
+.italics-text p {
+  color: tomato;
+}
+
+.italics-text > p {
+  background-color: slateblue;
+}
+
+h1, p {
+  font-family: monospace;
+}
+
+div p {
+
+}
