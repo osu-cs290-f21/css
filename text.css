@@ -1,0 +1,15 @@
+body {
+  /* font-family: "Helvetica Neue", Helvetica, sans-serif; */
+  /* font-family: serif; */
+  /* font-family: sans-serif; */
+  /* font-family: monospace; */
+  /* font-family: cursive; */
+  /* font-family: fantasy; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 48px;
+  font-style: italic;
+  /* color: aquamarine; */
+  /* color: #3e7bf0; */
+  color: rgba(62, 123, 240, 0.5);
+}
