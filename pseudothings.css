@@ -1,3 +1,42 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+
+a:hover {
+  background-color: turquoise;
+}
+
+li:hover {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* ul.hoverable:hover li{
+  font-weight: bold;
+} */
+
+a::after {
+  /* content: '↗'; */
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+p::first-letter {
+  font-family: cursive;
+  font-size: 24px;
+}
+
+p {
+  margin: 50px;
+  padding: 10px;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+  /* border-radius: 50%; */
+}
